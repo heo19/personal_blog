@@ -1,0 +1,7 @@
+.dummyBox{
+    width: 310px;
+    height: 0;
+    margin:10px;
+    margin-right:auto;
+    justify-content: left;
+  }
