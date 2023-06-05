@@ -8,7 +8,7 @@ function Content(props) {
         <div className = "contentBox" >
           <div className="contentTitle">
             <p className = "contentTitleText">{props.titleText}</p>
-            <span className="editButton">
+            <span className="editButton" onClick={props.onEdit}>
               <p className="editText">EDIT</p>
             </span>
             <span className="deleteButton" onClick={props.onDelete}>

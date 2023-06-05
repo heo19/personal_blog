@@ -22,8 +22,13 @@
 }
 
 .contentTitleText {
+    width:200px;
+    flex-wrap:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     margin-left: 20px;
     font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .postNote {
@@ -69,6 +74,7 @@
     font-weight: bolder;
     margin: 0;
 }
+
 .postNote{
     overflow:auto;
 }
@@ -76,4 +82,5 @@
 .previewNote{
     margin:0;
     flex-wrap:wrap;
+    font-family: 'Courier New', Courier, monospace;
 }
