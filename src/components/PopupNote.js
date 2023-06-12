@@ -17,13 +17,11 @@ function PopupNote(props) {
     };
 
     useEffect(() => {
-        if(titleValue === "" && noteValue ===""){
-            console.log("useEffectCalled");
-            console.log("titleValue: " + props.titleText);
-            console.log("noteValue: " + props.noteText);
-            setTitleValue(props.titleText);
-            setNoteValue(props.noteText);
-        }
+        console.log("useEffectCalled");
+        console.log("titleValue: " + props.titleText);
+        console.log("noteValue: " + props.noteText);
+        setTitleValue(props.titleText);
+        setNoteValue(props.noteText);
     }, [props.trigger]);
 
     function onSave() {

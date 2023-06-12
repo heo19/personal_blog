@@ -105,10 +105,6 @@ function App() {
                 <h4 className="blogTitle">Hyeonwoo's Personal Blog</h4>
             </div>
 
-            <div className="invisibleBox">
-                <div className="addNoteButton" onClick={addNote}></div>
-            </div>
-
             {postNoteInfoSet.map((postNoteInfo) => {
                 return (
                     <Content key={postNoteInfo.key}
@@ -121,6 +117,12 @@ function App() {
                 );
             })}
 
+            <div className="invisibleBox" id="plusButtonCenter">
+                <div className="addNoteButton" onClick={addNote}>
+                    <p className="plusButton">+</p>
+                </div>
+            </div>
+            
             {dummySetsStart.map((index) => {
                 return <DummyContent key={index}></DummyContent>
             })}

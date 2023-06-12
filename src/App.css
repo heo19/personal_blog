@@ -27,9 +27,23 @@
 }
 
 .addNoteButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: beige;
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  border: 5px solid black;
+  border: 3px solid black;
+}
+
+#plusButtonCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plusButton{
+  font-size:30px;
+  font-weight: bold;
 }
